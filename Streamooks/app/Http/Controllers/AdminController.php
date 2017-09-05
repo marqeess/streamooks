@@ -3,48 +3,24 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Auth;
+use App\User;
 
 class AdminController extends Controller
 {
+    //Passar pelos midlewares de controle de acesso
+    public function __construct()
+    {
+        $this->middleware('admin');
+        $this->middleware('status');
+    }
+    //Retornar view de administração
     public function index()
     {
         return view('admin.index');
     }
-
-    public function login()
+    public function Users()
     {
-        return view('auth.login-adm');
-    }
-
-    public function postLogin(Request $request)
-    {
-        $validator = validator($request->all(), [
-            'email' => 'required|min:3|max:100',
-            'password' => 'required|min:3|max:100'
-        ]);
-
-        if($validator->fails() ) {
-            return redirect('/admin/login')
-                ->withErrors($validator)
-                ->withInput();
-        }
-        
-        $credentials = ['email' => $request->get('email'), 'password' => $request->get('password')];
-
-        if ( auth()->guard('admin')->attempt($credentials) )
-        {
-            return redirect('/admin');
-        } else {
-            return redirect('/admin/login')
-                ->withErrors(['errors' => 'Login Invalido'])
-                ->withInput();
-        }
-    }
-
-    public function logout()
-    {
-        auth()->guard('admin')->logout();
-        return redirect ('admin/login');
+        $users = User::paginate(8);
+        return view('admin.usuarios.index', compact('users'));
     }
 }

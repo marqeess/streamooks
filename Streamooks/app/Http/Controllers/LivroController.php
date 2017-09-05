@@ -3,9 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Livro;
-use App\Genero;
-use App\Autor;
-use App\Editora;
 use Illuminate\Http\Request;
 
 class LivroController extends Controller
@@ -27,10 +24,7 @@ class LivroController extends Controller
      */
     public function create()
     {
-        $generos = Genero::all();
-        $autors = Autor::all();
-        $editoras = Editora::all();
-        return view('admin.livros.create', compact('generos','autors','editoras'));
+        //
     }
 
     /**
@@ -41,16 +35,7 @@ class LivroController extends Controller
      */
     public function store(Request $request)
     {
-        $livros = new Livro;
-        $livros->titulo = $request->titulo;
-        $livros->imagem = $request->imagem;
-        $livros->ano = $request->ano;
-        $livros->genero = $request->genero;
-        $livros->autor = $request->autor;
-        $livros->editora = $request->editora;
-        $livros->arquivo = $request->arquivo;
-        $livros->save();
-        return redirect('admin/livros');
+        //
     }
 
     /**

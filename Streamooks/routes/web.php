@@ -4,28 +4,40 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::group(['middleware' => 'admin'], function() {
-    
-    Route::prefix('admin')->group(function () {
+Route::get('/home', 'HomeController@index')->name('home');
 
-        //Route::group(['middleware' => 'auth'], function() {
-
-            Route::get('/', 'AdminController@index');
-            Route::get('/logout', 'AdminController@logout');
-            Route::resource('generos', 'GeneroController');
-            Route::resource('editoras', 'EditoraController');
-            Route::resource('autores', 'AutorController');
-            Route::resource('livros', 'LivroController');
-
-
-        //});
-
-        Route::get('/login', 'AdminController@login');
-        Route::post('/login', 'AdminController@postLogin')->name('postLogin');
-
-    });
-});
+//Rota de registrar e entrar no site ------------------------------------------
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Rota para confirmar o endereço de email do usuario --------------------------
+
+Route::get('confirmar/{email}/{token}', 'UserController@confirmar');
+
+//Rotas de administração do site ----------------------------------------------
+
+Route::prefix('admin')->group(function () {
+
+    Route::get('/', 'AdminController@index');
+    Route::resource('generos', 'GeneroController');
+    Route::resource('autores', 'AutorController');
+    Route::resource('editoras', 'EditoraController');
+    Route::resource('livros', 'LivroController');
+    Route::get('/usuarios', 'AdminController@Users');
+
+});
+
+
+//Rotas de controle dos dados de usuarios logado no site -----------------------
+
+Route::prefix('usuario')->group(function () {
+
+    Route::get('/', 'UsuarioController@ProprioPerfil');
+    Route::get('/configurar', 'UsuarioController@Configurar');
+
+
+});
+
+
+
+

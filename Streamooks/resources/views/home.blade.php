@@ -8,7 +8,11 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in!
+                    @can('status')
+                        
+                        @else
+                        <p>Favor verificar seu email</p>
+                    @endcan
                 </div>
             </div>
         </div>

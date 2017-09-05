@@ -1,3 +1,4 @@
+
 <form method="POST" action="{{ route('autores.store')}}" enctype="multipart/form-data">
 {{csrf_field()}}
 <input type="text" name="nome">

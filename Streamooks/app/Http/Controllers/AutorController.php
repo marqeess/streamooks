@@ -10,7 +10,7 @@ class AutorController extends Controller
 
     public function index()
     {
-        $autors = Autor::all();
+        $autors = Autor::paginate(8);
         return view('admin.autors.index', compact('autors'));
     }
 
@@ -59,4 +59,5 @@ class AutorController extends Controller
         $autors->delete();
         return redirect('admin/autores');
     }
+    
 }

@@ -1,3 +1,7 @@
+@extends('layouts.padrao2')
+
+@section('content')
+
 <form role="form" method="POST" action="{{ route('generos.update', $generos[0]->id) }}" enctype="multipart/form-data">
 {{csrf_field()}}
 <input type="hidden" name="_method" value="put">
@@ -6,3 +10,5 @@
 <input type="submit" value="Editar">
 
 </form>
+
+ @endsection
