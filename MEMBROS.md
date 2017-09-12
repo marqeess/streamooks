@@ -3,6 +3,6 @@ Thayná de Andrade Recchia
 Igor Ribeiro Braga    
 Azrael Garden  
 Leandro Engelber  
-Vinicius Soares
+Vinicius Soares  
 Vinicius Tomaz  
 Alvaro Vieira
