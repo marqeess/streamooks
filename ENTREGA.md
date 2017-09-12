@@ -1,5 +1,5 @@
-Cadastro de Administradores - Marques, Azrael
-CRUD de Livros - Marques, Azrael
+Cadastro de Administradores - Marques, Azrael  
+CRUD de Livros - Marques, Azrael  
 CRUD de Categorias - Marques, Azrael
 CRUD de Listas - Marques, Azrael
 Cadastro de Editoras - Marques, Azrael
