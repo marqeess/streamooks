@@ -1,5 +1,5 @@
 Pedro Henrique Marques de Oliveira  
-Thayná de Andrade Recchia 
+Thayná de Andrade Recchia   
 Igor Ribeiro Braga    
 Azrael Garden  
 Leandro Engelber  
