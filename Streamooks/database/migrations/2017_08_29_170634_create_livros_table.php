@@ -26,7 +26,7 @@ class CreateLivrosTable extends Migration
 
             $table->foreign('editora_id')->references('id')->on('editoras');
             $table->foreign('autors_id')->references('id')->on('autors');
-            $table->foreign('genero_id')->references('id')->on('generos');
+            $table->foreign('generos_id')->references('id')->on('generos');
         });
     }
 

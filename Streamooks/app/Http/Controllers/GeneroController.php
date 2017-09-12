@@ -4,14 +4,19 @@ namespace App\Http\Controllers;
 
 use App\Genero;
 use Gate;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 
 class GeneroController extends Controller
 {
-    //Exibe a lista com todos os generos
-    public function index()
+    //Exibe ou pesquisa uma lista com todos os generos
+    public function index(Request $request)
     {
-        $generos = Genero::paginate(8);
+        if($request->pesquisa == null){
+            $generos = Genero::paginate(10);
+        } else {
+            $generos = Genero::where('nome', 'like', '%'.$request->pesquisa.'%')->paginate(10);       
+        }
         return view('admin.generos.index', compact('generos'));
     }
     //Formulario de criação dos generos

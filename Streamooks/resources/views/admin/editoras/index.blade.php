@@ -1,4 +1,4 @@
-  @extends('layouts.padrao2')
+  @extends('layouts.padrao')
 
 @section('content')
 

@@ -13,6 +13,7 @@ Auth::routes();
 //Rota para confirmar o endereço de email do usuario --------------------------
 
 Route::get('confirmar/{email}/{token}', 'UserController@confirmar');
+Route::get('confirmar/novamente', 'UserController@novamente');
 
 //Rotas de administração do site ----------------------------------------------
 
@@ -20,6 +21,7 @@ Route::prefix('admin')->group(function () {
 
     Route::get('/', 'AdminController@index');
     Route::resource('generos', 'GeneroController');
+    Route::get('generos/pesquisa/{pesquisar}', 'GeneroController@pesquisar');
     Route::resource('autores', 'AutorController');
     Route::resource('editoras', 'EditoraController');
     Route::resource('livros', 'LivroController');

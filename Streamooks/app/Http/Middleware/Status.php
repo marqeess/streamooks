@@ -17,7 +17,7 @@ class Status
     public function handle($request, Closure $next)
     {
         if(Gate::denies('status')){
-           return redirect('/home');
+           return redirect('/');
         }
         return $next($request);
     }
