@@ -19,13 +19,13 @@ _________________________________________________________________
 SEGUNDA ENTREGA  
   
 HOME com os Livros - Marques, Azrael,  
-Exibir Livros por Genêro - Marques, Alvaro, Thayna 
-Pesquisa de Livros/Editoras/Autores - Marques, Alvaro 
-Página Única do Livro - Marques, Thay, Alvaro, Leandro 
+Exibir Livros por Genêro - Marques, Alvaro, Thayna  
+Pesquisa de Livros/Editoras/Autores - Marques, Alvaro  
+Página Única do Livro - Marques, Thay, Alvaro, Leandro  
 Perfil do Usuário - Marques, Igor, Leandro, Vinicius Soares  
-Perfil dos Autores - Marques, Leandro, Vinicius Soares 
+Perfil dos Autores - Marques, Leandro, Vinicius Soares  
 Perfil da Editora - Marques, Vinicius Thomas, Leandro, Vinicius Soares  
-Configuração do Usuário - Marques, Alvaro, Vinicius Soares, Leandro 
+Configuração do Usuário - Marques, Alvaro, Vinicius Soares, Leandro  
 Leitor do Livro - Marques, Azrael  
 
 HTML Completo  
