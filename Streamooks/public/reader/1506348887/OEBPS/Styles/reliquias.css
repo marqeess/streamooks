@@ -1,0 +1,125 @@
+/* Default */
+
+p {text-indent: 1em; margin-top: 0; margin-bottom: 0; font-family: "Times New Roman", serif}
+h1, h2, h3, h4, h5, h6 {margin-top: 0; margin-bottom: 0; font-family: "Times New Roman", serif; font-weight: normal}
+div {margin-top: 0pt; margin-bottom: 0pt}
+sup {line-height: 0}
+img {text-indent: 0}
+
+/* Pagebreak */
+.pagebreak {page-break-before: always}
+
+/* Cover */
+.cover {margin-top:0px; margin-left: 0px; margin-right: 0px; margin-bottom: 0px; text-align: center; background-color: #ffffff;}
+.coverimage {height: 100%}
+
+/* Titlepage */
+.author {font-size: 150%; font-family: "Times New Roman", serif; font-style: normal; font-weight: normal; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 10%; margin-bottom: 0%; text-align: center}
+.title {font-size: 250%; font-family: "Times New Roman", serif; font-style: normal; font-weight: normal; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 10%; margin-bottom: 0; text-align: center}
+.subtitle {font-size: 100%; font-family: "Times New Roman", serif; font-style: normal; font-weight: normal; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 2em; margin-bottom: 2em; text-align: center}
+.logo {text-indent: 0; text-align: center; margin-top: 30%}
+
+/* Copyright */
+.copyright1 {font-size: 80%; font-family: "Times New Roman", serif; text-indent: 0; margin-top: 2em; text-align: center}
+.copyright2 {font-size: 80%; font-family: "Times New Roman", serif; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 1em; margin-bottom: 0; text-align: center}
+
+/* Dedication */
+.dedication {font-size: 100%; font-family: "Times New Roman", serif; font-style: normal; font-weight: normal; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 20%; margin-bottom: 0; text-align: center}
+
+/* Table of Contents */
+.tochead {font-size: 120%; font-family: sans-serif; font-style: normal; font-weight: normal; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 3%; margin-bottom: 0%; text-align: center}
+.toc {font-size: 100%; font-family: "Times New Roman", serif; font-style: normal; font-weight: normal; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 1%; margin-bottom: 0%; text-align: center}
+
+/* Header */
+h4.halftitle {font-size: 150%; font-family: "Times New Roman", serif; font-style: normal; font-weight: normal; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 15%; margin-bottom: 0%; text-align: center}
+h4.partnum {font-size: 150%; font-family: "Times New Roman", serif; font-style: normal; font-weight: bold; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 15%; margin-bottom: 0; text-align: center}
+h4.parttitle {font-size: 180%; font-family: "Times New Roman", serif; font-style: normal; font-weight: bold; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 15%; margin-bottom: 0; text-align: center}
+h4.chapnum {font-size: 130%; font-family: "Times New Roman", serif; font-style: normal; font-weight: normal; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 15%; margin-bottom: 0; text-align: center}
+h4.chaptitle {font-size: 150%; font-family: "Times New Roman", serif; font-style: normal; font-weight: normal; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 1%; margin-bottom: 2em; text-align: center}
+
+/* Front Matter */
+h4.fronthead {font-size: 150%; font-family: "Times New Roman", serif; font-style: normal; font-weight: normal; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 15%; margin-bottom: 2em; text-align: center}
+
+/* Block Quote 
+Ex. 
+<div class="blockquote">
+<p>text</p>
+<p class="textbreak">text</p>
+</div>
+*/
+div.blockquote {margin-top: 1em;margin-bottom: 1em;}
+
+/* Line Spacing 
+Use 
+<p>&nbsp;</p> 
+to insert empty line space.
+Ex.
+<p>Text</p>
+<p>&nbsp;</p>
+<p>Text</p>
+
+.topbot {margin-top: 1em; margin-bottom: 1em}
+.topbot2 {margin-top: 2em; margin-bottom: 2em} 
+.top {margin-top: 1em; margin-bottom: 0em}
+.top2 {margin-top: 2em; margin-bottom: 0em}
+.bot {margin-bottom: 1em; margin-top: 0em}
+.bot2 {margin-bottom: 2em; margin-top: 0em} 
+*/
+
+/* Lists 
+Ex.
+<div class="list">
+<p>1. List 1</p>
+<p>2. List 2</p>
+</div>
+*/
+div.list{margin-top: 1em;margin-bottom: 1em;}
+ul {margin-top: 0pt; margin-bottom: 0pt}
+.ul {margin-top: 0pt; margin-bottom: 0pt; margin-left: 1em}
+.ul2 {margin-top: 1em; margin-bottom: 0pt; margin-left: 1em}
+
+/* Back Matter */
+h4.backhead {font-size: 150%; font-family: "Times New Roman", serif; font-style: normal; font-weight: normal; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 15%; margin-bottom: 0; text-align: center}
+.footnote {text-indent: 0; margin-top: 1em}
+.index {margin-left: 1em; text-indent: -1em}
+
+/* Sections/Sub-Sections */
+.textfirst {font-size: 100%; text-indent: 0; margin-left: 0; margin-right: +0; margin-top: 0; margin-bottom: +0}
+.head1 {font-size: 100%; font-family: sans-serif; font-style: normal; font-weight: bold; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 2em; margin-bottom: 0; text-align: left}
+.textafterhead1 {font-size: 100%; font-family: "Times New Roman", serif; font-style: normal; font-weight: normal; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 1em; margin-bottom: 0%}
+.head2 {font-size: 120%; font-family: sans-serif; font-style: normal; font-weight: bold; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 2em; margin-bottom: 0; text-align: left}
+.textafterhead2 {font-size: 100%; font-family: "Times New Roman", serif; font-style: normal; font-weight: normal; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 1em; margin-bottom: 0%}
+
+/* Figures, Images, Captions */
+.caption {font-size: 80%; font-family: sans-serif; font-style: normal; font-weight: normal; text-indent: 0; margin-left: +0; margin-right: +0; margin-top: 1%; margin-bottom: 0; text-align: center}
+div.figure{margin-top: 1em; margin-bottom: 1em}
+
+/* Miscellaneous */
+.sc {font-size: 80%} /* Add a Comment if edited */
+.textbreak {margin-top: 1em; text-indent: 0}
+.textbreak2 {margin-top: 2em; text-indent: 0}
+.block {margin-left: 1em; margin-right: 1em; text-indent: 0}
+.block1 {margin-left: 1em; margin-right: 0em; text-indent: 0}
+.noindent {text-indent: 0}
+.center {text-indent: 0; text-align: center}
+.right {text-indent: 0; text-align: right}
+.dropcap {font-size: x-large; font-weight: normal; line-height: 0}
+.hang1 {text-indent: -1em}
+.sans {font-family: sans-serif}
+.gray {color: gray}
+.sansgray {font-family: sans-serif; color: gray}
+div.box1 {border-top: 1pt black solid; border-right: 1pt black solid; border-bottom: 1pt black solid; border-left: 1pt black solid}
+div.box2 {border-top: 1pt black dashed; border-right: 1pt black dashed; border-bottom: 1pt black dashed; border-left: 1pt black dashed}
+div.box3 {border-top: 2pt black solid; border-right: 2pt black solid; border-bottom: 2pt black solid; border-left: 2pt black solid; padding-top: 1pt; padding-right: 1pt; padding-left: 1pt; padding-bottom: 1pt; }
+
+/* Additional */
+.break {text-indent: 0; text-align: center; margin-top: 1em; margin-bottom: 1em}
+div.top15 {margin-top: 15%;}
+.cnt {font-size: 110%; text-indent: 0; text-align: center;}
+.indentsans {font-family: sans-serif}
+.noindent2 {text-indent: 0; font-family: sans-serif}
+.centersans {text-indent: 0; text-align: center; font-family: sans-serif}
+.textbreak3 {margin-top: 1em; text-indent: 0; font-family: sans-serif}
+
+a {text-decoration: none; color: black}
+.boekstaaf { color: #303135; text-decoration: none; border: 1px solid; border-top-color: #393200; margin: 9px; display: none; vertical-align: middle; padding: 23px; font-size: 12px; background: #353233;  } 

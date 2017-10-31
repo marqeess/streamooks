@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="reliquias9781781103593" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="reliquias9781781103593" opf:scheme="isbn">9781781103593</dc:identifier>
+    <dc:title>Harry Potter e as Relíquias da Morte</dc:title>
+    <dc:creator opf:file-as="J.K. Rowling" opf:role="aut">J.K. Rowling</dc:creator>
+    <dc:publisher>Pottermore Limited</dc:publisher>
+    <dc:subject>ebook</dc:subject>
+    <dc:rights>Copyright © J.K. Rowling 2007</dc:rights>
+    <dc:date opf:event="modification">2013-12-23</dc:date>
+    <meta name="cover" content="cover-image" />
+    <meta content="0.7.4" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item href="Text/00_cover01552392.html" id="cover" media-type="application/xhtml+xml" />
+    <item href="Text/01_title01552392.html" id="body001" media-type="application/xhtml+xml" />
+    <item href="Text/copyright01552392.html" id="body002" media-type="application/xhtml+xml" />
+    <item href="Text/03_pottermore01552392.html" id="body003" media-type="application/xhtml+xml" />
+    <item href="Text/04_dedi01552392.html" id="body004" media-type="application/xhtml+xml" />
+    <item href="Text/05_epigraph01552392.html" id="body005" media-type="application/xhtml+xml" />
+    <item href="Text/06_toc01552392.html" id="body006" media-type="application/xhtml+xml" />
+    <item href="Text/07_c101552392.html" id="body007" media-type="application/xhtml+xml" />
+    <item href="Text/08_c201552392.html" id="body008" media-type="application/xhtml+xml" />
+    <item href="Text/09_c301552392.html" id="body009" media-type="application/xhtml+xml" />
+    <item href="Text/10_c401552392.html" id="body010" media-type="application/xhtml+xml" />
+    <item href="Text/11_c501552392.html" id="body011" media-type="application/xhtml+xml" />
+    <item href="Text/12_c601552392.html" id="body012" media-type="application/xhtml+xml" />
+    <item href="Text/13_c701552392.html" id="body013" media-type="application/xhtml+xml" />
+    <item href="Text/14_c801552392.html" id="body014" media-type="application/xhtml+xml" />
+    <item href="Text/15_c901552392.html" id="body015" media-type="application/xhtml+xml" />
+    <item href="Text/16_c1001552392.html" id="body016" media-type="application/xhtml+xml" />
+    <item href="Text/17_c1101552392.html" id="body017" media-type="application/xhtml+xml" />
+    <item href="Text/18_c1201552392.html" id="body018" media-type="application/xhtml+xml" />
+    <item href="Text/19_c1301552392.html" id="body019" media-type="application/xhtml+xml" />
+    <item href="Text/20_c1401552392.html" id="body020" media-type="application/xhtml+xml" />
+    <item href="Text/21_c1501552392.html" id="body021" media-type="application/xhtml+xml" />
+    <item href="Text/22_c1601552392.html" id="body022" media-type="application/xhtml+xml" />
+    <item href="Text/23_c1701552392.html" id="body023" media-type="application/xhtml+xml" />
+    <item href="Text/24_c1801552392.html" id="body024" media-type="application/xhtml+xml" />
+    <item href="Text/25_c1901552392.html" id="body025" media-type="application/xhtml+xml" />
+    <item href="Text/26_c2001552392.html" id="body026" media-type="application/xhtml+xml" />
+    <item href="Text/27_c2101552392.html" id="body027" media-type="application/xhtml+xml" />
+    <item href="Text/28_c2201552392.html" id="body028" media-type="application/xhtml+xml" />
+    <item href="Text/29_c2301552392.html" id="body029" media-type="application/xhtml+xml" />
+    <item href="Text/30_c2401552392.html" id="body030" media-type="application/xhtml+xml" />
+    <item href="Text/31_c2501552392.html" id="body031" media-type="application/xhtml+xml" />
+    <item href="Text/32_c2601552392.html" id="body032" media-type="application/xhtml+xml" />
+    <item href="Text/33_c2701552392.html" id="body033" media-type="application/xhtml+xml" />
+    <item href="Text/34_c2801552392.html" id="body034" media-type="application/xhtml+xml" />
+    <item href="Text/35_c2901552392.html" id="body035" media-type="application/xhtml+xml" />
+    <item href="Text/36_c3001552392.html" id="body036" media-type="application/xhtml+xml" />
+    <item href="Text/37_c3101552392.html" id="body037" media-type="application/xhtml+xml" />
+    <item href="Text/38_c3201552392.html" id="body038" media-type="application/xhtml+xml" />
+    <item href="Text/39_c3301552392.html" id="body039" media-type="application/xhtml+xml" />
+    <item href="Text/40_c3401552392.html" id="body040" media-type="application/xhtml+xml" />
+    <item href="Text/41_c3501552392.html" id="body041" media-type="application/xhtml+xml" />
+    <item href="Text/42_c3601552392.html" id="body042" media-type="application/xhtml+xml" />
+    <item href="Text/43_deze01552392.html" id="body043" media-type="application/xhtml+xml" />
+    <item href="Text/44_dez101552392.html" id="body044" media-type="application/xhtml+xml" />
+    <item href="Text/45_alsoby01552392.html" id="body045" media-type="application/xhtml+xml" />
+    <item href="Styles/reliquias.css" id="stylesheet" media-type="text/css" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Images/cover.jpg" id="cover-image" media-type="image/jpeg" />
+    <item href="Images/tp.png" id="img1" media-type="image/png" />
+    <item href="Misc/page-template.xpgt" id="page-template" media-type="application/vnd.adobe-page-template+xml" />
+    <item href="Images/logo.jpg" id="logo.jpg" media-type="image/jpeg" />
+    <item href="Text/copyright.xhtml" id="copyright.xhtml" media-type="application/xhtml+xml" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover" linear="no" />
+    <itemref idref="copyright.xhtml" />
+    <itemref idref="body001" linear="yes" />
+    <itemref idref="body002" linear="yes" />
+    <itemref idref="body003" linear="yes" />
+    <itemref idref="body004" linear="yes" />
+    <itemref idref="body005" linear="yes" />
+    <itemref idref="body006" linear="yes" />
+    <itemref idref="body007" linear="yes" />
+    <itemref idref="body008" linear="yes" />
+    <itemref idref="body009" linear="yes" />
+    <itemref idref="body010" linear="yes" />
+    <itemref idref="body011" linear="yes" />
+    <itemref idref="body012" linear="yes" />
+    <itemref idref="body013" linear="yes" />
+    <itemref idref="body014" linear="yes" />
+    <itemref idref="body015" linear="yes" />
+    <itemref idref="body016" linear="yes" />
+    <itemref idref="body017" linear="yes" />
+    <itemref idref="body018" linear="yes" />
+    <itemref idref="body019" linear="yes" />
+    <itemref idref="body020" linear="yes" />
+    <itemref idref="body021" linear="yes" />
+    <itemref idref="body022" linear="yes" />
+    <itemref idref="body023" linear="yes" />
+    <itemref idref="body024" linear="yes" />
+    <itemref idref="body025" linear="yes" />
+    <itemref idref="body026" linear="yes" />
+    <itemref idref="body027" linear="yes" />
+    <itemref idref="body028" linear="yes" />
+    <itemref idref="body029" linear="yes" />
+    <itemref idref="body030" linear="yes" />
+    <itemref idref="body031" linear="yes" />
+    <itemref idref="body032" linear="yes" />
+    <itemref idref="body033" linear="yes" />
+    <itemref idref="body034" linear="yes" />
+    <itemref idref="body035" linear="yes" />
+    <itemref idref="body036" linear="yes" />
+    <itemref idref="body037" linear="yes" />
+    <itemref idref="body038" linear="yes" />
+    <itemref idref="body039" linear="yes" />
+    <itemref idref="body040" linear="yes" />
+    <itemref idref="body041" linear="yes" />
+    <itemref idref="body042" linear="yes" />
+    <itemref idref="body043" linear="yes" />
+    <itemref idref="body044" linear="yes" />
+    <itemref idref="body045" linear="yes" />
+  </spine>
+  <guide>
+    <reference href="Text/00_cover01552392.html" title="Capa" type="cover" />
+    <reference href="Text/01_title01552392.html" title="Página do Título" type="title-page" />
+    <reference href="Text/copyright01552392.html" title="Direitos Reservados" type="copyright-page" />
+    <reference href="Text/03_pottermore01552392.html" title="Pottermore.com" type="other.pottermore" />
+    <reference href="Text/04_dedi01552392.html" title="Dedicatória" type="other.dedication" />
+    <reference href="Text/05_epigraph01552392.html" title="Epígrafo" type="other.epigraph" />
+    <reference href="Text/06_toc01552392.html" title="Conteúdo" type="toc" />
+    <reference href="Text/07_c101552392.html" title="— CAPÍTULO UM —" type="text" />
+    <reference href="Text/08_c201552392.html" title="— CAPÍTULO DOIS —" type="other.chapter2" />
+    <reference href="Text/09_c301552392.html" title="— CAPÍTULO TRÊS —" type="other.chapter3" />
+    <reference href="Text/10_c401552392.html" title="— CAPÍTULO QUATRO —" type="other.chapter4" />
+    <reference href="Text/11_c501552392.html" title="— CAPÍTULO CINCO —" type="other.chapter5" />
+    <reference href="Text/12_c601552392.html" title="— CAPÍTULO SEIS —" type="other.chapter6" />
+    <reference href="Text/13_c701552392.html" title="— CAPÍTULO SETE —" type="other.chapter7" />
+    <reference href="Text/14_c801552392.html" title="— CAPÍTULO OITO —" type="other.chapter8" />
+    <reference href="Text/15_c901552392.html" title="— CAPÍTULO NOVE —" type="other.chapter9" />
+    <reference href="Text/16_c1001552392.html" title="— CAPÍTULO DEZ —" type="other.chapter10" />
+    <reference href="Text/17_c1101552392.html" title="— CAPÍTULO ONZE —" type="other.chapter11" />
+    <reference href="Text/18_c1201552392.html" title="— CAPÍTULO DOZE —" type="other.chapter12" />
+    <reference href="Text/19_c1301552392.html" title="— CAPÍTULO TREZE —" type="other.chapter13" />
+    <reference href="Text/20_c1401552392.html" title="— CAPÍTULO CATORZE —" type="other.chapter14" />
+    <reference href="Text/21_c1501552392.html" title="— CAPÍTULO QUINZE —" type="other.chapter15" />
+    <reference href="Text/22_c1601552392.html" title="— CAPÍTULO DEZESSEIS —" type="other.chapter16" />
+    <reference href="Text/23_c1701552392.html" title="— CAPÍTULO DEZESSETE —" type="other.chapter17" />
+    <reference href="Text/24_c1801552392.html" title="— CAPÍTULO DEZOITO —" type="other.chapter18" />
+    <reference href="Text/25_c1901552392.html" title="— CAPÍTULO DEZENOVE —" type="other.chapter19" />
+    <reference href="Text/26_c2001552392.html" title="— CAPÍTULO VINTE —" type="other.chapter20" />
+    <reference href="Text/27_c2101552392.html" title="— CAPÍTULO VINTE E UM —" type="other.chapter21" />
+    <reference href="Text/28_c2201552392.html" title="— CAPÍTULO VINTE E DOIS —" type="other.chapter22" />
+    <reference href="Text/29_c2301552392.html" title="— CAPÍTULO VINTE E TRÊS —" type="other.chapter23" />
+    <reference href="Text/30_c2401552392.html" title="— CAPÍTULO VINTE E QUATRO —" type="other.chapter24" />
+    <reference href="Text/31_c2501552392.html" title="— CAPÍTULO VINTE E CINCO —" type="other.chapter25" />
+    <reference href="Text/32_c2601552392.html" title="— CAPÍTULO VINTE E SEIS —" type="other.chapter26" />
+    <reference href="Text/33_c2701552392.html" title="— CAPÍTULO VINTE E SETE —" type="other.chapter27" />
+    <reference href="Text/34_c2801552392.html" title="— CAPÍTULO VINTE E OITO —" type="other.chapter28" />
+    <reference href="Text/35_c2901552392.html" title="— CAPÍTULO VINTE E NOVE —" type="other.chapter29" />
+    <reference href="Text/36_c3001552392.html" title="— CAPÍTULO TRINTA —" type="other.chapter30" />
+    <reference href="Text/37_c3101552392.html" title="— CAPÍTULO TRINTA E UM —" type="other.chapter31" />
+    <reference href="Text/38_c3201552392.html" title="— CAPÍTULO TRINTA E DOIS —" type="other.chapter32" />
+    <reference href="Text/39_c3301552392.html" title="— CAPÍTULO TRINTA E TRÊS —" type="other.chapter33" />
+    <reference href="Text/40_c3401552392.html" title="— CAPÍTULO TRINTA E QUATRO —" type="other.chapter34" />
+    <reference href="Text/41_c3501552392.html" title="— CAPÍTULO TRINTA E CINCO —" type="other.chapter35" />
+    <reference href="Text/42_c3601552392.html" title="— CAPÍTULO TRINTA E SEIS —" type="other.chapter36" />
+    <reference href="Text/43_deze01552392.html" title="DEZENOVE ANOS DEPOIS" type="other.deze" />
+    <reference href="Text/45_alsoby01552392.html" title="Também por" type="other.alsoby" />
+  </guide>
+</package>

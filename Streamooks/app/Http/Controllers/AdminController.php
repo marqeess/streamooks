@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use App\User;
 
 class AdminController extends Controller
@@ -16,7 +17,12 @@ class AdminController extends Controller
     //Retornar view de administração
     public function index()
     {
-        return view('admin.index');
+        $usuarios = DB::table('users')->count();
+        $generos = DB::table('generos')->count();
+        $autores = DB::table('autors')->count();
+        $livros = DB::table('livros')->count();
+        $editoras = DB::table('editoras')->count();
+        return view('admin.index', compact('usuarios','generos','autores','livros','editoras'));
     }
     public function Users()
     {

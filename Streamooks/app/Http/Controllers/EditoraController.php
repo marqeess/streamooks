@@ -8,10 +8,14 @@ use File;
 
 class EditoraController extends Controller
 {
-    //Exibe a lista com todas as editoras
-    public function index()
+    //Exibe ou pesquisa uma lista com todas as editoras
+    public function index(Request $request)
     {
-        $editoras = Editora::paginate(8);
+        if($request->pesquisa == null){
+            $editoras = Editora::paginate(10);
+        } else {
+            $editoras = Editora::where('nome', 'like', '%'.$request->pesquisa.'%')->paginate(10);       
+        }
         return view('admin.editoras.index', compact('editoras'));
     }
     //Formulario de criação das editoras
@@ -42,17 +46,31 @@ class EditoraController extends Controller
     //Salva os dados do formulario de edição
     public function update(Request $request, Editora $editora)
     {
-        $editoras = Editora::find($editora->id);
-        $editoras->nome = $request->nome;
-        $editoras->descricao = $request->descricao;
-        $editoras->imagem = $request->imagem;
-        $editoras->save();
+        if($request->imagem == null){
+            $editoras = Editora::find($editora->id);
+            $editoras->nome = $request->nome;
+            $editoras->descricao = $request->descricao;
+            $editoras->save();
+        } else {
+            //Caso houver troca de imagem ele salva a imagem no public
+            $imagem = time().'.'.$request->imagem->getClientOriginalExtension();
+            $request->imagem->move(public_path('editoras'), $imagem);
+            //Salva dados no bando de dados
+            $editoras = Editora::find($editora->id);
+            $editoras->nome = $request->nome;
+            $editoras->descricao = $request->descricao;
+            $editoras->imagem = $imagem;
+            //Deleta a antiga imagem do public
+            File::delete('editoras/'.$editora->imagem);
+            $editoras->save();
+        }
         return redirect('admin/editoras');
     }
     //Exclui os arquivos da editora no banco de dados e nos diretorios
     public function destroy(Editora $editora)
     {
         $editoras = Editora::find($editora->id);
+        //Exclui a imagem da editora no diretorio
         File::delete('editoras/'.$editora->imagem);
         $editoras->delete();
         return redirect('admin/editoras');

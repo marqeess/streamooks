@@ -16,17 +16,13 @@ class CreateLivrosTable extends Migration
         Schema::create('livros', function (Blueprint $table) {
             $table->increments('id');
             $table->string('titulo');
-            $table->string('descricao');
+            $table->longText('descricao');
+            $table->string('local');
             $table->string('imagem');
             $table->integer('editora_id')->unsigned();
-            $table->integer('autors_id')->unsigned();
-            $table->integer('generos_id')->unsigned();
+            $table->foreign('editora_id')->references('id')->on('editoras')->onDelete('cascade');
             $table->string('arquivo');
             $table->timestamps();
-
-            $table->foreign('editora_id')->references('id')->on('editoras');
-            $table->foreign('autors_id')->references('id')->on('autors');
-            $table->foreign('generos_id')->references('id')->on('generos');
         });
     }
 

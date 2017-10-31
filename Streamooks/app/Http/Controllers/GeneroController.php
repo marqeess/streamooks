@@ -6,6 +6,7 @@ use App\Genero;
 use Gate;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
+use Session;
 
 class GeneroController extends Controller
 {
@@ -31,6 +32,7 @@ class GeneroController extends Controller
         $generos->nome = $request->nome;
         $generos->descricao = $request->descricao;
         $generos->save();
+        Session::flash('flash_message', 'Genêro cadastrado com sucesso.');
         return redirect('admin/generos');
     }
     //Formulario ja preenchido com os dados de determinado genero para editar
@@ -46,13 +48,19 @@ class GeneroController extends Controller
         $generos->nome = $request->nome;
         $generos->descricao = $request->descricao;
         $generos->save();
+        Session::flash('flash_message', 'Gênero editado com sucesso.');
         return redirect('admin/generos');
     }
     //Exclui os arquivos do genero no banco de dados
     public function destroy(Genero $genero)
     {
+        try {
         $generos = Genero::find($genero->id);
         $generos->delete();
         return redirect('admin/generos');
+        } catch(\Illuminate\Database\QueryException $e){
+            Session::flash('error', 'Para excluir esse genêro deve desvincular todos os livros a ele.');
+            return redirect('admin/generos');
+        }
     }
 }

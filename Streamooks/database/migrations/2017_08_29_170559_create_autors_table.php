@@ -18,8 +18,8 @@ class CreateAutorsTable extends Migration
             $table->string('nome');
             $table->string('nascimento');
             $table->string('nacionalidade');
-            $table->string('biografia');
-            $table->string('imagem');
+            $table->longText('biografia');
+            $table->string('imagem')->nullable();
             $table->timestamps();
         });
     }
